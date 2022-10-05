@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(248, 214, 242);
+    box-shadow: 1px 1px 1px grey;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li:hover{
+    color: #2a0077;
+    transition: 0.3s ease-in-out;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+    margin-left: 10vw;
+}
+
+h1{
+    font-size: 36px;
+    color: #8b50fb;
+    margin-top: 10px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10vw;
+    margin-top: 5px;
+}
+
+li{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #8b50fb;
+    display: inline-block;
+}
+
+li:hover{
+    cursor:pointer;
+}
+
+.first-li{
+    margin-left: 0;
+}
+/* Utility */
+
+.current {
+    color: #2a0077;
+}
+
+/* Body */
+
+.article{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+.articleContainer{
+    margin: 50px 0;
+}
+
+.article h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2a0077;
+}
+
+.article h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.article p{
+    width: 70%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.article a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.article a:hover{
+    color: #8b50fb;
+}
+/*-------------------------- footer ----------------------*/
+
+footer{
+    box-shadow: -1px -1px 1px grey;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.left .email{
+    color:#8b50fb;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.right h3{
+    color: #8b50fb;
+}
